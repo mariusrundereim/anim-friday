@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background: gray;
+}
+
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.control {
+  min-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
